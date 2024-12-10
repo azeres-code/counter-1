@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.counter{
+    height: 10em;
+    width: 10em;
+    /* background-color: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#digit{
+    color: grey;
+    font-weight: bolder;
+    font-size: 12em;
+}
+
+.btn{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    background-color: turquoise;
+    font-weight: bolder;
+
+}
+
+.btn-drawer{
+    display: inline-flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
